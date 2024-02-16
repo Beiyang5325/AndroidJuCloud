@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<title>🌀飓风云☁️</title>
+<icon>icon.png</icon>
+<packageName>com.JuFengCloud.jfgc</packageName>
+<versionName>1.60.3.3</versionName>
+<versionint>445</versionint>
+<sdk>25</sdk>
+<yuv>3</yuv>
+
+<remark>🌀飓风云☁️手机 软件</remark>
+<Permissions>android.permission.FLASHLIGHT
+android.hardware.camera.autofocus
+android.hardware.camera2
+android.hardware.camera
+android.permission.REQUEST_INSTALL_PACKAGES
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.CAMERA
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.INTERNET</Permissions>
+<createTime>2023-05-28 16:07:37</createTime>
+<upTime>2023-05-28 16:07:37</upTime><zdiAppDir>已开启</zdiAppDir>

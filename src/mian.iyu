@@ -1,0 +1,243 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+ps=background=#ff85faa6
+background=@JuFengCloud/tbwjj/1702032085023.png</ppt>
+<event></event>
+</View>
+<View id="15" did="1" type="GifView">
+<ppt>width=120dp
+height=-2
+src=@240.gif
+layout_marginTop=10dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="20" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=bottom|center</ppt>
+<event></event>
+</View>
+<View id="29" did="20" type="CardView">
+<ppt>width=200dp
+height=55dp
+app_CardcornerRadius=25dp
+visibility=gone</ppt>
+<event><eventItme type="clicki">utw("@logo/JuFengCloud/20231118_014550_0000.png","提问","你想干什么呢？","查看下载详情","打开文件",false,v)
+{
+  hdduigo("#ff000000","#ff85edff")
+  lan(6)
+}
+else
+{
+  uigo("浏览器全屏修复.iyu")
+  lan(6)
+}</eventItme></event>
+</View>
+<View id="32" did="29" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=top|left</ppt>
+<event></event>
+</View>
+<View id="33" did="32" type="TextView">
+<ppt>width=-2
+height=-2
+text=xxx
+textColor=#ff000000
+typeface=@acbt80.ttf
+textSize=8sp
+layout_marginLeft=25dp</ppt>
+<event></event>
+</View>
+<View id="30" did="32" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=left|center</ppt>
+<event></event>
+</View>
+<View id="24" did="30" type="CardView">
+<ppt>width=100dp
+height=22dp
+app_CardcornerRadius=15dp
+layout_marginLeft=15dp</ppt>
+<event></event>
+</View>
+<View id="25" did="24" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="26" did="25" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+background=#ff85edff</ppt>
+<event></event>
+</View>
+<View id="31" did="30" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本31
+textColor=#ff000000
+typeface=@acbt80.ttf
+layout_marginLeft=15dp</ppt>
+<event></event>
+</View>
+<View id="17" did="20" type="TextView">
+<ppt>width=-2
+height=-2
+text=一言：xxxx
+textColor=#ff55ff00
+textSize=16sp
+gravity=center
+visibility=gone
+typeface=@Ex_GameFont.ttf
+textIsSelectable=true
+layout_marginTop=15dp
+layout_marginLeft=25dp
+layout_marginRight=25dp</ppt>
+<event></event>
+</View>
+<View id="23" did="20" type="ProgressBar">
+<ppt>width=60dp
+height=60dp
+style=16842871
+layout_marginBottom=35dp</ppt>
+<event></event>
+</View>
+<View id="21" did="20" type="TextView">
+<ppt>width=-2
+height=-2
+text=Version 1.60.3.3
+typeface=@acbt80.ttf
+textIsSelectable=true
+layout_marginBottom=35dp
+textColor=#ffffffff</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="downkey">//退出延迟
+f(st_kC==4)
+{
+}</eventItme><eventItme type="loading">t()
+{
+  fe("$JuFengCloud/qdp/qdp.ini",yzczx)
+  f(yzczx != false)
+  {
+    fr("$JuFengCloud/qdp/qdp.ini",qdpnr)
+    sj(qdpnr,"jfgc-disk_qdp = ",null,nr)
+    f(nr != "false")
+    {
+      ss("$JuFengCloud/qdp/HuCloud-"+nr,pjhdnr)
+      ufnsui()
+      {
+        us(1,"background",pjhdnr)
+      }
+      syso(pjhdnr)
+    }
+  }
+}
+//
+s ljq ="/sdcard/欢乐的北洋/JuFengCloud/com.JuFengCloud.jfgc/yz/index.yz"
+fe(ljq,yzcsbl)
+ufnsui()
+{
+  f(yzcsbl == "false")
+  {
+    tw("请打开设置给予本软件读取所有文件的权限",0)
+    fw(ljq,"JuFengCloud")
+  }
+}
+//
+//vpn验证
+fn vpn.vpn()
+//UI定义
+sss uidy ="mian1.iyu"
+//AD模块引入
+t()
+{
+  s adurl ="http://mi.xn--vhqv89ad4fr5gz80cpgh.cn/fileecho.php?user=177828525&file=ad.txt"
+  hs(adurl,sss.adyz)
+  f(sss.adyz == false)
+  {
+    sss adyz ="@JuFengCloud/html/null-ad.html"
+  }
+  else
+  {
+    hs(adurl,sss.adyz)
+  }
+}
+//ajjajajjjajjjajjajajajjjaja
+uycl(true)
+//启动验证
+sss qdyz ="true"
+//去除第一图
+s lj ="$JuFengCloud/qdp/qdp.ini"
+s nr ="[common]\njfgc-disk_qdp = false"
+s bm ="utf-8"
+fw(lj,nr,bm)
+//一言
+t()
+{
+  s yy_url ="http://xn--api-p18di60isoh478c.hucl.link/?dy=mryy"
+  hs(yy_url,yywb)
+  syso(yywb)
+  ss("一言：\n"+yywb,yywb)
+  f(yywb != null)
+  {
+    ufnsui()
+    {
+      us(17,"visibility","visible")
+      us(17,"text",yywb)
+      dha(dh,false,true)
+      dh(dh,"duration",3500)
+      us(17,"dh",dh)
+    }
+  }
+}</eventItme><eventItme type="loadingComplete">fc("@JuFengCloud/res/success.png","$HuCloud/com.JuFengCloud.jfgc/src/success.png",fcyz)
+fc("@JuFengCloud/res/loading.png","$HuCloud/com.JuFengCloud.jfgc/src/loading.png",fcyz2)
+syso(fcyz)
+syso(fcyz2)
+//配置加载
+fr("$Server/HuCloud/消息提醒加载设置/消息提醒加载设置.hucl",xxtsjz)
+sss xxtsjz = xxtsjz
+//
+t()
+{
+  stop(4500)
+  s a ="$Android/.JuFengCloud/.ysbhmm.huclmm"
+  fe(a,b)
+  syso(b)
+  f(b == false)
+  {
+    s a ="$欢乐的北洋/JuFengCloud/JuFengCloud/YS/yssj.jfgc.ini"
+    s b ="utf-8"
+    fr(a,b,c)
+    f(c == null)
+    {
+      uigo("mian1.iyu")
+      lan(6)
+      end()
+    }
+    else f(c != null)
+    {
+      uigo("mian1.iyu")
+      lan(6)
+      end()
+    }
+  }
+  else f(b == true)
+  {
+    uigo("隐私锁.iyu")
+    lan(6)
+    end()
+  }
+}
+//___***---***---***---***---***___
+/.</eventItme></UIEventset>

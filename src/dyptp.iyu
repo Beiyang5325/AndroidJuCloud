@@ -1,0 +1,298 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="6" did="2" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="3" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=top|center</ppt>
+<event></event>
+</View>
+<View id="7" did="3" type="CardView">
+<ppt>width=-1
+height=500dp
+layout_marginTop=15dp
+layout_marginLeft=15dp
+layout_marginRight=15dp
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="ImageView">
+<ppt>width=-1
+height=-1
+src=$JuFengCloud/qdp/HuCloud-101.png</ppt>
+<event></event>
+</View>
+<View id="10" did="8" type="Button">
+<ppt>width=-1
+height=-1
+text=设为第一屏图片选择
+background=through
+typeface=@Ex_GameFont.ttf
+textSize=26sp
+textColor=#ff000000</ppt>
+<event><eventItme type="clicki">s lj ="$JuFengCloud/qdp/qdp.ini"
+s nr ="[common]\njfgc-disk_qdp = 101.png"
+s bm ="utf-8"
+fw(lj,nr,bm)
+bfm("@ajyx/snes_pop-7a6d3.ogg")</eventItme></event>
+</View>
+<View id="11" did="3" type="CardView">
+<ppt>width=-1
+height=500dp
+layout_marginTop=15dp
+layout_marginLeft=15dp
+layout_marginRight=15dp
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="12" did="11" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="ImageView">
+<ppt>width=-1
+height=-1
+src=$JuFengCloud/qdp/HuCloud-212.png</ppt>
+<event></event>
+</View>
+<View id="14" did="12" type="Button">
+<ppt>width=-1
+height=-1
+text=设为第一屏图片选择
+background=through
+typeface=@Ex_GameFont.ttf
+textSize=26sp
+textColor=#ff000000</ppt>
+<event><eventItme type="clicki">s lj ="$JuFengCloud/qdp/qdp.ini"
+s nr ="[common]\njfgc-disk_qdp = 212.png"
+s bm ="utf-8"
+fw(lj,nr,bm)
+bfm("@ajyx/snes_pop-7a6d3.ogg")</eventItme></event>
+</View>
+<View id="15" did="3" type="CardView">
+<ppt>width=-1
+height=500dp
+layout_marginTop=15dp
+layout_marginLeft=15dp
+layout_marginRight=15dp
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="17" did="16" type="ImageView">
+<ppt>width=-1
+height=-1
+src=$JuFengCloud/qdp/HuCloud-323.png</ppt>
+<event></event>
+</View>
+<View id="18" did="16" type="Button">
+<ppt>width=-1
+height=-1
+text=设为第一屏图片选择
+background=through
+typeface=@Ex_GameFont.ttf
+textSize=26sp
+textColor=#ff000000</ppt>
+<event><eventItme type="clicki">s lj ="$JuFengCloud/qdp/qdp.ini"
+s nr ="[common]\njfgc-disk_qdp = 323.png"
+s bm ="utf-8"
+fw(lj,nr,bm)
+bfm("@ajyx/snes_pop-7a6d3.ogg")</eventItme></event>
+</View>
+<View id="19" did="3" type="CardView">
+<ppt>width=-1
+height=500dp
+layout_marginTop=15dp
+layout_marginLeft=15dp
+layout_marginRight=15dp
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="20" did="19" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="21" did="20" type="ImageView">
+<ppt>width=-1
+height=-1
+src=$JuFengCloud/qdp/HuCloud-434.png</ppt>
+<event></event>
+</View>
+<View id="22" did="20" type="Button">
+<ppt>width=-1
+height=-1
+text=设为第一屏图片选择
+background=through
+typeface=@Ex_GameFont.ttf
+textSize=26sp
+textColor=#ff000000</ppt>
+<event><eventItme type="clicki">s lj ="$JuFengCloud/qdp/qdp.ini"
+s nr ="[common]\njfgc-disk_qdp = 434.png"
+s bm ="utf-8"
+fw(lj,nr,bm)
+bfm("@ajyx/snes_pop-7a6d3.ogg")</eventItme></event>
+</View>
+<View id="23" did="3" type="CardView">
+<ppt>width=-1
+height=500dp
+layout_marginTop=15dp
+layout_marginLeft=15dp
+layout_marginRight=15dp
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="24" did="23" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="25" did="24" type="ImageView">
+<ppt>width=-1
+height=-1
+src=$JuFengCloud/qdp/HuCloud-545.png</ppt>
+<event></event>
+</View>
+<View id="26" did="24" type="Button">
+<ppt>width=-1
+height=-1
+text=设为第一屏图片选择
+background=through
+typeface=@Ex_GameFont.ttf
+textSize=26sp
+textColor=#ff000000</ppt>
+<event><eventItme type="clicki">s lj ="$JuFengCloud/qdp/qdp.ini"
+s nr ="[common]\njfgc-disk_qdp = 545.png"
+s bm ="utf-8"
+fw(lj,nr,bm)
+bfm("@ajyx/snes_pop-7a6d3.ogg")</eventItme></event>
+</View>
+<View id="27" did="3" type="CardView">
+<ppt>width=-1
+height=500dp
+layout_marginTop=15dp
+layout_marginLeft=15dp
+layout_marginRight=15dp
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="28" did="27" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="29" did="28" type="ImageView">
+<ppt>width=-1
+height=-1
+src=$JuFengCloud/qdp/HuCloud-656.png</ppt>
+<event></event>
+</View>
+<View id="30" did="28" type="Button">
+<ppt>width=-1
+height=-1
+text=设为第一屏图片选择
+background=through
+typeface=@Ex_GameFont.ttf
+textSize=26sp
+textColor=#ff000000</ppt>
+<event><eventItme type="clicki">s lj ="$JuFengCloud/qdp/qdp.ini"
+s nr ="[common]\njfgc-disk_qdp = 656.png"
+s bm ="utf-8"
+fw(lj,nr,bm)
+bfm("@ajyx/snes_pop-7a6d3.ogg")</eventItme></event>
+</View>
+<View id="31" did="3" type="CardView">
+<ppt>width=-1
+height=500dp
+layout_marginTop=15dp
+layout_marginLeft=15dp
+layout_marginRight=15dp
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="32" did="31" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="33" did="32" type="ImageView">
+<ppt>width=-1
+height=-1
+src=$JuFengCloud/qdp/HuCloud-767.png</ppt>
+<event></event>
+</View>
+<View id="34" did="32" type="Button">
+<ppt>width=-1
+height=-1
+text=设为第一屏图片选择
+background=through
+typeface=@Ex_GameFont.ttf
+textSize=26sp
+textColor=#ff000000</ppt>
+<event><eventItme type="clicki">s lj ="$JuFengCloud/qdp/qdp.ini"
+s nr ="[common]\njfgc-disk_qdp = 767.png"
+s bm ="utf-8"
+fw(lj,nr,bm)
+bfm("@ajyx/snes_pop-7a6d3.ogg")</eventItme></event>
+</View>
+<View id="35" did="3" type="CardView">
+<ppt>width=-1
+height=500dp
+layout_marginTop=15dp
+layout_marginLeft=15dp
+layout_marginRight=15dp
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="36" did="35" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="37" did="36" type="ImageView">
+<ppt>width=-1
+height=-1
+src=$JuFengCloud/qdp/HuCloud-878.png</ppt>
+<event></event>
+</View>
+<View id="38" did="36" type="Button">
+<ppt>width=-1
+height=-1
+text=设为第一屏图片选择
+background=through
+typeface=@Ex_GameFont.ttf
+textSize=26sp
+textColor=#ff000000</ppt>
+<event><eventItme type="clicki">s lj ="$JuFengCloud/qdp/qdp.ini"
+s nr ="[common]\njfgc-disk_qdp = 878.png"
+s bm ="utf-8"
+fw(lj,nr,bm)
+bfm("@ajyx/snes_pop-7a6d3.ogg")</eventItme></event>
+</View>
+<UIEventset></UIEventset>

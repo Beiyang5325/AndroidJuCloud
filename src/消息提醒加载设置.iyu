@@ -1,0 +1,102 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="CardView">
+<ppt>width=-1
+height=290dp
+app_CardcornerRadius=25dp
+layout_marginLeft=25dp
+layout_marginRight=25dp</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=top|center
+BackgroundColor=#ff85edff</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="RoundImageView">
+<ppt>width=60dp
+height=60dp
+src=@logo/HuduCloud/logo.png</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=</ppt>
+<event></event>
+</View>
+<View id="6" did="3" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=25dp
+app_CardElevation=35dp
+layout_marginLeft=25dp
+layout_marginRight=25dp</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="Button">
+<ppt>width=-1
+height=-1
+text=关闭消息提醒加载
+textColor=#ff000000
+background=#ffff2222
+typeface=@Ex_GameFont.ttf
+textIsSelectable=true</ppt>
+<event><eventItme type="clicki">bfm("@ajyx/snes_pop-7a6d3.ogg")
+t()
+{
+  s a ="$Server/HuCloud/消息提醒加载设置/消息提醒加载设置.hucl"
+  s b ="utf-8"
+  s c ="false"
+  fw(a,c,b)
+  ufnsui()
+  {
+    sss xxtsjz ="false"
+    tw("成功关闭",0)
+    endutw()
+  }
+}</eventItme></event>
+</View>
+<View id="8" did="3" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=25dp
+app_CardElevation=35dp
+layout_marginBottom=35dp
+layout_marginTop=25dp
+layout_marginLeft=25dp
+layout_marginRight=25dp</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="Button">
+<ppt>width=-1
+height=-1
+text=开启消息提醒加载
+textColor=#ff000000
+background=#ff26ff43
+typeface=@Ex_GameFont.ttf
+textIsSelectable=true</ppt>
+<event><eventItme type="clicki">bfm("@ajyx/snes_pop-7a6d3.ogg")
+t()
+{
+  s a ="$Server/HuCloud/消息提醒加载设置/消息提醒加载设置.hucl"
+  s b ="utf-8"
+  s c ="true"
+  fw(a,c,b)
+  ufnsui()
+  {
+    sss xxtsjz ="true"
+    tw("成功开启",0)
+    endutw()
+  }
+}</eventItme></event>
+</View>
+<UIEventset></UIEventset>

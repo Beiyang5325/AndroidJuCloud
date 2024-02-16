@@ -1,0 +1,92 @@
+fn juapi()
+t()
+{
+  w(true)
+  {
+    s url ="https://api.hucl.link/api/mryy.php"
+    hs(url,url)
+    syso(url)
+    //
+    f(url ? "404")
+    {
+      uigo("404.iyu")
+      lan(6)
+      end()
+      s tysy ="true"
+    }
+    else f(url == null)
+    {
+      uigo("404.iyu")
+      lan(6)
+      end()
+      s tysy ="true"
+    }
+    f(tysy == "true")
+    {
+      endcode
+    }
+    stop(1000)
+  }
+}
+end fn
+
+fn yz()
+t()
+{
+  ss("http://mi.xn--vhqv89ad4fr5gz80cpgh.cn/echouser.php?file=maintain&admin=177828525",url)
+  hs(url,url)
+  sj(url,"维护开关:","&lt;br&gt;维护通知:",switch)
+  sj(url,"维护通知:",null,notice)
+  sr(notice,"&lt;br&gt;","\n",notice)
+  f(switch=="开")
+  {
+    ufnsui()
+    {
+      utw("@logo/JuFengCloud/20231118_014550_0000.png","维护通知",notice,"确定",true,v)
+      {
+        end()
+        tw("请等待维护完成再进入")
+      }
+    }
+  }
+}
+end fn
+
+fn cs()
+t()
+{
+  ss("http://mi.xn--vhqv89ad4fr5gz80cpgh.cn/startnum.php?user=177828525",url)
+  hs(url,url)
+  ufnsui()
+  {
+    sj(url,"启动数+1&lt;br&gt;",null,url)
+    syso(url)
+    tw(url,0)
+  }
+}
+end fn
+
+fn gxdkfs()
+s urls = sss.urls
+syso(sss.urls)
+syso(urls)
+//
+f(urls *? ".mp4" || urls *? ".mp3")
+{
+  ufnsui()
+  {
+    uigo("浏览器全屏修复.iyu")
+    lan(6)
+  }
+}
+else f(urls *? ".zip")
+{
+  fuz(urls,"/sdcard/欢乐的北洋/JuFengCloud/com.JuFengCloud.jfgc/Server.HuCloud/",sgc)
+  syso(sgc)
+}
+else f(urls *? ".apk")
+{
+  res(urls,anapk)
+  syso(anapk)
+}
+end fn

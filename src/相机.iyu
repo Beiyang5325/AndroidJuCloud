@@ -1,0 +1,109 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=horizontal
+gravity=center
+background=black</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@1.webp</ppt>
+<event><eventItme type="clicki">usx(sss.psl, "usg", true)
+us(4,"visibility","gone")
+us(9,"visibility","visible")</eventItme></event>
+</View>
+<View id="9" did="1" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@3.webp
+visibility=gone</ppt>
+<event><eventItme type="clicki">usx(sss.psl, "usg", false)
+us(4,"visibility","visible")
+us(9,"visibility","gone")</eventItme></event>
+</View>
+<View id="2" did="0" type="SurfaceView">
+<ppt>width=-1
+height=610dp</ppt>
+<event></event>
+</View>
+<View id="8" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+background=black</ppt>
+<event></event>
+</View>
+<View id="3" did="8" type="LinearLayout">
+<ppt>width=160dp
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="ImageView">
+<ppt>width=50dp
+height=50dp
+src=@ic_edit_camera_tool_module_night.png
+visibility=visible</ppt>
+<event><eventItme type="clicki">//fo(ss.zplj)
+syso(ss.zplj)
+s lj =ss.zplj
+uqr(ss.zplj,smjg)
+utw("@20230923_163802_0000.png","扫描结果",smjg,"确定","复制",true,v)
+{
+  uigo("相机.iyu")
+  lan(0)
+  end()
+  endutw()
+}
+else
+{
+  sxb(smjg)
+  uigo("相机.iyu")
+  lan(0)
+  end()
+}</eventItme></event>
+</View>
+<View id="7" did="8" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="6" did="7" type="ImageView">
+<ppt>width=50dp
+height=70dp
+src=@ic_camera_tool_module_video.png
+scaleType=fitxy</ppt>
+<event><eventItme type="clicki">//自动对焦拍摄
+//输入摄像头变量对象，输入保存路径
+//输入图像旋转角度，输入拍摄是否停止预览
+s yf ="Y"
+s mf ="m"
+s df ="d"
+s hf ="H"
+s mf ="M"
+s sf ="S"
+time(yf,nf)
+time(mf,yf)
+time(df,rf)
+time(hf,sj)
+time(mf,fz)
+time(sf,mz)
+//
+ss("$HuCloud/.hc/"+nf+yf+rf+sj+fz+mz+".jpeg",lj)
+s dybcimlj = lj
+syso(lj)
+usx(sss.psl,"shot",dybcimlj,90,true)
+syso(sss.psl)
+ss zplj =lj</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#caaeff82",true)
+//输入摄像头变量对象
+//输入面控件的对象或ID，摄像头旋转角度
+//输入拍摄宽度像素，输入拍摄高度像素
+//输入图像品质1-100,等级越高品质越好
+usxh(sss.psl,2,90,19200,10800,100)</eventItme></UIEventset>

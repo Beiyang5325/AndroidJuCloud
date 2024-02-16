@@ -1,0 +1,208 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center
+background=#fff5f5f7</ppt>
+<event></event>
+</View>
+<View id="17" did="1" type="CardView">
+<ppt>width=-2
+height=-2
+app_CardcornerRadius=25dp
+app_CardElevation=25dp</ppt>
+<event></event>
+</View>
+<View id="18" did="17" type="Button">
+<ppt>width=35dp
+height=35dp
+text=✘
+textColor=#ffff0000
+background=#96e151b8</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="2" did="1" type="CardView">
+<ppt>width=-2
+height=-2
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="Button">
+<ppt>width=35dp
+height=35dp
+text=←
+textColor=#ff1d1d1f
+background=#96e151b8</ppt>
+<event><eventItme type="clicki">us(14,"gobackorforward",-1)</eventItme></event>
+</View>
+<View id="4" did="1" type="CardView">
+<ppt>width=-2
+height=-2
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="Button">
+<ppt>width=35dp
+height=35dp
+text=➣
+textColor=#ff1d1d1f
+background=#96e151b8
+
+</ppt>
+<event><eventItme type="clicki">us(14,"gobackorforward",1)</eventItme></event>
+</View>
+<View id="6" did="1" type="CardView">
+<ppt>width=112dp
+height=-2
+app_CardcornerRadius=15dp</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+textColor=#ff000000
+hint=URL
+gravity=center
+singleLine=true
+background=#bc2fb783</ppt>
+<event></event>
+</View>
+<View id="8" did="1" type="CardView">
+<ppt>width=-2
+height=-2
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="Button">
+<ppt>width=35dp
+height=35dp
+text=╬
+textColor=#ff1d1d1f
+background=#96e151b8</ppt>
+<event><eventItme type="clicki">ug(7,"text",url)
+us(14,"url",url)</eventItme><eventItme type="press">ug(7,"text",txt)
+ss("https://cn.bing.com/search?q="+txt,url)
+syso(url)
+ug(14,"url",url)</eventItme></event>
+</View>
+<View id="10" did="1" type="CardView">
+<ppt>width=-2
+height=-2
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="Button">
+<ppt>width=35dp
+height=35dp
+text=※
+textColor=#ff1d1d1f
+background=#96e151b8</ppt>
+<event><eventItme type="clicki">ug(14,"url",ym)
+sss ymurl = ym
+uigo("源.iyu")
+lan(0)</eventItme></event>
+</View>
+<View id="12" did="1" type="CardView">
+<ppt>width=-2
+height=-2
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="Button">
+<ppt>width=35dp
+height=35dp
+text=⇩
+textColor=#ff1d1d1f
+background=#96e151b8</ppt>
+<event><eventItme type="clicki">hdduigo()</eventItme></event>
+</View>
+<View id="15" did="1" type="CardView">
+<ppt>width=-2
+height=-2
+app_CardcornerRadius=25dp
+app_CardElevation=25dp</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="Button">
+<ppt>width=35dp
+height=35dp
+text=○
+textColor=#ff1d1d1f
+background=#96e151b8</ppt>
+<event><eventItme type="clicki">ug(7,"text",txt)
+ss("https://cn.bing.com/search?q="+txt,url)
+us(14,"url",url)</eventItme><eventItme type="press">s a =null
+us(7,"txt",a)</eventItme></event>
+</View>
+<View id="14" did="0" type="WebView">
+<ppt>width=-1
+height=-1
+url=http://limestart.cn/</ppt>
+<event><eventItme type="onpagefinished">ug(14,"url",txt)
+us(7,"text",txt)
+time("5",dqsj)
+s a ="/sdcard/欢乐的北洋/JuFengCloud/HQYM/Log.log"
+s b ="utf-8"
+fr(a,b,s)
+ss(s+"\n"+dqsj+"："+txt,txt)
+s a ="/sdcard/欢乐的北洋/JuFengCloud/HQYM/Log.log"
+s ta ="/sdcard/欢乐的北洋/JuFengCloud/HQYM/Log.log"
+s c ="utf-8"
+fw(a,txt,c)
+//fw(at,b,s)</eventItme><eventItme type="ondownloadstart">t()
+{
+  ufnsui()
+  {
+    ss("是否下载："+st_url,urls)
+    utw("@20230923_163802_0000.png","提醒",urls,"是","不",true,v)
+    {
+      s dir ="/sdcard/欢乐的北洋/JuFengCloud/下载"
+      ss("下载："+st_url,title)
+      s name ="下载文件.zip"
+      s icon ="@JuFengCloud/res/inform.png"
+      s notsohw =true
+      s data ="JuFengCloudD"
+      hdda(st_url,dir,name,title,icon,notsohw,data,v)
+      endutw()
+      tw("已开始下载...",0)
+    }
+    else
+    {
+      endutw()
+    }
+  }
+}</eventItme><eventItme type="onreceivederror">s not ="@not.html"
+us(14,"url",not)
+us(7,"text","出错了！இдஇ")</eventItme></event>
+</View>
+<UIEventset><eventItme type="downkey">//退出延迟
+f(st_kC==4)
+{
+  us(14,"gobackorforward",-1)
+}</eventItme><eventItme type="loading">//vpn验证
+fn vpn.vpn()
+//隐藏
+uycl(true)
+f(sss.qdyz != "true")
+{
+  tw("未正常启动，正在重新启动",0)
+  lan(0)
+  uigo("mian.iyu")
+  end()
+}
+else f(sss.qdyz == "true")
+{
+  tw("基于 源码-浏览器",0)
+}
+/.
+//广告实现
+t()
+{
+  ufnsui()
+  {
+    uigo("AD.iyu")
+    lan(0)
+  }
+}
+./</eventItme></UIEventset>

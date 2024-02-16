@@ -1,0 +1,27 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="CardView">
+<ppt>width=300dp
+height=350dp
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@JuFengCloud/qqzf/tp/qrcode_20240105170655.png</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

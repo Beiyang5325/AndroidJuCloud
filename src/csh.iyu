@@ -1,0 +1,38 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="CardView">
+<ppt>width=-1
+height=88dp
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=left|center</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="GifView">
+<ppt>width=66dp
+height=66dp
+src=@100.gif
+layout_marginLeft=15dp</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=初始化中...
+textColor=#ff000000
+typeface=@acbt80.ttf
+textSize=25sp
+layout_marginLeft=25dp</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>
